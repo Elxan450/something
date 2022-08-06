@@ -1,0 +1,194 @@
+html{
+    font-family:Roboto;
+}
+.first-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:600px;
+    margin-bottom: 120px;
+}
+.logo{
+    margin-bottom:70px;
+    width:64px;
+    height:64px;
+    border-radius:32px;
+    background-color: #313131;
+    border:none;
+    
+}
+
+.first-h1{
+    margin-bottom:0px;
+    margin-bottom:16px;
+}
+
+.first-p{
+    margin-bottom:24px;
+}
+.first-button{
+    margin-bottom:120px;
+    padding:24px;
+    background-color:#BDBDBD;
+    border:none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.second-page{
+    margin-top:1px;
+    height:1000px;
+    border-width:3px;
+
+}
+
+.second-page-div1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:180px;
+}
+
+.second-page-p1{
+    text-transform:uppercase;
+}
+
+.second-page-p2{
+    width:600px;
+    text-align: center;
+}
+
+.second-page-div2{
+    margin-right:20px;
+    margin-left:20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+}
+
+
+.number{
+    font-size:43px;
+    font-weight: 100;
+}
+
+.material{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.descrip{
+    font-size: 18px;
+    line-height: 25px;
+    width:400px;
+
+}
+
+.third-page{
+    height:800px;
+    margin-top:3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+    background-color: #3C3A47;
+    font-family:'Poppins';
+}
+label,input{
+    display:block
+}
+
+.inputs{
+    width:640px;
+    height:40px;
+    margin-top:6px;
+    margin-bottom:22px;
+}
+
+.third-page-input{
+    width:640px;
+    height:250px;
+    margin-top:6px;
+    margin-bottom:22px;
+}
+
+.third-page p{
+    margin-bottom:-12px;
+    color:rgba(255,255,255,0.8);
+}
+
+.third-page h1{
+    color:white;    
+}
+
+form button{
+    padding:16px 258px;
+    margin-top:6px;
+    margin-bottom:22px;
+    background-color:#3C3A47;
+    border-color:white;
+    border-style:solid;
+    color:white;
+    font-weight:700;
+    font-size: 18px;
+}
+
+label{
+    font-size:18px;
+    letter-spacing:10%;
+    color:rgba(255,255,255,0.8);
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border:none;
+}
+
+.fourth-page{
+    height:800px;
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    font-family:'Poppins';
+}
+
+.images{
+    display: flex;
+    gap:50px;
+    margin-top: 20px;
+}
+
+.fourth-page-p1{
+    margin-top:-150px;
+    letter-spacing:10%;
+    font-size:25px;
+}
+
+.fourth-page-h1{
+    font-size:55px;
+}
+
+.fourth-page-p2{
+    font-size: 32px;
+}
+
+.fourth-page-p3{
+    margin-top: 170px;
+    margin-bottom:-170px;
+    font-size:28px;
+    line-height:40px;
+    width:800px;
+    text-align:center;
+    color:#3C3A47;
+}
+
+span{
+    color:#A67452;
+}
